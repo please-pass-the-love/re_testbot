@@ -10,7 +10,7 @@ const app = new App({
     signingSecret: process.env.SLACK_SIGNING_SECRET
 });
 
-app.message('hi', ({ message, say }) => {
+app.message(':hi:', ({ message, say }) => {
     say(`Hello <@${message.user}>!`);
 });
 
