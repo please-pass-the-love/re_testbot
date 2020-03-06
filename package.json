@@ -1,0 +1,23 @@
+{
+  "name": "pptl-moderation",
+  "version": "1.0.0",
+  "description": "Please Pass the Love Slack Moderation Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsmHack/pptl-moderation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsmHack/pptl-moderation/issues"
+  },
+  "homepage": "https://github.com/dsmHack/pptl-moderation#readme",
+  "dependencies": {
+    "@slack/bolt": "^1.6.0"
+  }
+}
