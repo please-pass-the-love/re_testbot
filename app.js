@@ -6,7 +6,7 @@ const app = new App({
 });
 
 app.message('hi', ({ message, say }) => {
-    say(`Hey there <@${message.user}>!`);
+    say(`Hello <@${message.user}>!`);
 });
 
 (async () => {
